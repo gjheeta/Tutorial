@@ -3,8 +3,18 @@ print "Reading a file in"
 
 file_name = "InputFile.pages"
 
-file = open("/Users/Gurdip/Documents/aws-overview.pdf",'r')
+file = open("/Users/Gurdip/PycharmProjects/Tutorial/Input Data/InputFile.pages",'r')
 
-file.read()
+n=0
+
+for line in file:
+    print "line number"
 
 
+class c1(object):
+    def hello(self):
+        print("Hi this is from a class")
+
+x = c1();
+
+x.hello()
