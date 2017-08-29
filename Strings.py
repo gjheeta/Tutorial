@@ -48,6 +48,7 @@ print col2
 plus2 = [row[1] + 10 for row in M if row[1]>2]
 print plus2
 
+
 rowTotal = [sum (row) for row in M]
 print rowTotal
 
