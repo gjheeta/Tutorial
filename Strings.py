@@ -55,7 +55,7 @@ print (map(sum,M))
 
 dictionary = {}
 
-dictionary['Pattern Owner'] = 'Michael'
+dictionary['Pattern Owner'] = 'Michael Aguiling'
 dictionary['Pattern'] = 'Machine Learning'
 
 BigData_dict = dict(PatternOwner = 'Michael Aguiling', Pattern='Big Data', Archetype='Big Data Analytics', Platform='Private Cloud')
