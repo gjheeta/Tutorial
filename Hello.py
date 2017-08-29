@@ -1,20 +1,11 @@
+import json
+
 
 print "Reading a file in"
 
-file_name = "InputFile.pages"
+file_name = "TextHTML.html"
 
-file = open("/Users/Gurdip/PycharmProjects/Tutorial/Input Data/InputFile.pages",'r')
-
-n=0
-
-for line in file:
-    print "line number"
+file = open("/Users/Gurdip/PycharmProjects/Tutorial/Input Data/" + file_name,'r')
 
 
-class c1(object):
-    def hello(self):
-        print("Hi this is from a class")
 
-x = c1();
-
-x.hello()
