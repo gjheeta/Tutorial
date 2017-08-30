@@ -69,3 +69,11 @@ print bob2
 
 for key in sorted(BigData_dict):
     print (key, '----', BigData_dict[key])
+
+
+calendar = ('Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec')
+print len(calendar)
+
+
+print "Simrath has her birthday in the month of " + calendar[6]
+print "Isher has her birthday in the month of " + calendar[5]
